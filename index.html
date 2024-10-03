@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingegneria del Software</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <h1>Software</h1>
+        <div class="subtitle">Biestro, Bignamini, Cassani, Dinescu, Dourka, Jenduobi</div>
+    </div>
+    <div class="particles" id="particles"></div>
+    <div class="lines">
+        <div class="line" style="left: 10%;"></div>
+        <div class="line" style="left: 30%;"></div>
+        <div class="line" style="left: 50%;"></div>
+        <div class="line" style="left: 70%;"></div>
+        <div class="line" style="left: 90%;"></div>
+    </div>
+</header>
+
+<section class="about">
+    <h2>Chi Siamo</h2>
+    <p>Siamo un gruppo di studenti della 4HT-i dell'istituto Archimede di Treviglio (BG). Con questa presentazione desideriamo trattare come argomenti l'ingegneria del software sotto tutti i suoi aspetti e il ciclo di vita di un software in maniera approfondita. I nostri nomi sono Edoardo, Andrea, Rucsandra, Rayan, Alessandro e Francesco.</p>
+</section>
+
+<section class="services">
+    <h2>Indice</h2>
+    <div class="service-list">
+        <div class="service-item">
+            <h3>Introduzione</h3>
+            <p>Lo sviluppo del software è un processo complesso che richiede l'uso di modelli e metodologie per garantire efficienza e qualità nella realizzazione dei prodotti digitali.</p>
+        </div>
+        <div class="service-item">
+            <h3>Modello a cascata</h3>
+            <p>Il modello a cascata è un approccio sequenziale allo sviluppo software in cui ogni fase deve essere completata prima di passare alla successiva.</p>
+        </div>
+        <div class="service-item">
+            <h3>Modello a spirale</h3>
+            <p>Il modello a spirale combina elementi iterativi e incrementali, ponendo un forte accento sulla gestione dei rischi durante lo sviluppo del software.</p>
+        </div><br />
+        <div class="service-item">
+            <h3>Metodologie agili</h3>
+            <p>Le metodologie agili promuovono uno sviluppo software flessibile e adattabile, con un focus sul testing e refactoring.</p>
+        </div>
+        <div class="service-item">
+            <h3>Scrum</h3>
+            <p>Scrum è una metodologia agile che organizza lo sviluppo software in sprint di breve durata, con un team autogestito e un focus continuo sull'ottimizzazione e la consegna del prodotto.</p>
+        </div>
+        <div class="service-item">
+            <h3>Linguaggio UML</h3>
+            <p>I diagrammi UML sono strumenti visivi utilizzati per modellare e descrivere le strutture e i comportamenti di un sistema software.</p>
+        </div>
+        <div class="service-item">
+            <h3>Software pattern</h3>
+            <p>I software pattern sono soluzioni riutilizzabili a problemi comuni di progettazione software, che aiutano a migliorare la struttura e la manutenzione del codice.</p>
+        </div><br />
+        <div class="service-item">
+            <h3>Requisiti software</h3>
+            <p>I requisiti software rappresentano le specifiche funzionali, non funzionali e tecnologiche che definiscono cosa il software deve fare e come deve comportarsi.</p>
+        </div>
+        <div class="service-item">
+            <h3>Diagrammi UML dei casi d'uso</h3>
+            <p>I casi d'uso descrivono le interazioni tra un utente e un sistema, fornendo una visione dettagliata di come il software risponde a specifiche azioni degli utenti. Comprende soltanto requisiti funzionali.</p>
+        </div>
+    </div>
+</section>
+
+<section class="text-section">
+    <h2>Iniziamo...</h2>
+</section>
+
+<section class="text-columns">
+    <div class="text-column">
+        <h3>Introduzione</h3>
+        <p>L'ingegneria del software è una branca dell'informatica che si occupa della progettazione, dello sviluppo, della manutenzione, della gestione e della documentazione di sistemi software complessi. Il suo obiettivo principale è applicare principi ingegneristici per garantire che il software venga realizzato in modo efficiente, sicuro, manutenibile e in grado di soddisfare le esigenze degli utenti finali.
+            <br /><br />
+            <b>Ciclo di vita del software (Software Development Life Cycle - SDLC)</b>
+            <br /><br />
+            Il ciclo di vita del software comprende l'intero processo che un sistema software attraversa, dall'idea iniziale fino alla sua dismissione. Questo processo è solitamente suddiviso in diverse fasi chiave:
+            <br /><br />
+
+            1. <b>Analisi dei requisiti</b>: identificazione delle necessità e delle specifiche degli utenti;
+            <br />
+            2. <b>Progettazione</b>: definizione dell'architettura e della struttura del software;
+            <br />
+            3. <b>Implementazione</b>: sviluppo del codice sorgente del software;
+            <br />
+            4. <b>Test</b>: verifica che il software funzioni correttamente e senza bug;
+            <br />
+            5. <b>Distribuzione</b>: rilascio del software agli utenti;
+            <br />
+            6. <b>Manutenzione</b>: correzione di bug, miglioramenti e aggiornamenti per adattarsi a nuove esigenze o tecnologie.
+
+            <br /><br />
+
+            <b>Ingegneria del software</b>
+            <br /><br />
+            L'ingegneria del software si differenzia dal semplice sviluppo di software grazie alla sua enfasi sull'uso di processi ben definiti e su approcci metodici. Mentre lo sviluppo può concentrarsi solo sulla scrittura del codice, l'ingegneria del software abbraccia l'intero ciclo di vita del prodotto e utilizza tecniche per ridurre i rischi, garantire la qualità e facilitare la gestione del progetto su larga scala. Si basa su modelli strutturati e pratiche consolidate che promuovono la collaborazione tra team, la gestione delle versioni e la previsione delle problematiche future.
+            <br /><br />
+            <b>Metodologie di sviluppoe</b>
+            <br /><br />
+            Le metodologie di sviluppo del software sono insiemi di pratiche e principi che guidano la gestione dei progetti software. Tra le più conosciute ci sono:
+            <br /><br />
+            1. <b>Modello a cascata (Waterfall)</b>: una metodologia sequenziale e incrementale in cui ogni fase del processo è completata prima di passare alla successiva.
+            <br /><br />
+            2. <b>Modello a spirale (Spiral)</b>: una metodologia incrementale iterativa in cui ogni fase del processo è completata prima di passare alla successiva e le fasi vengono ripetute ciclicamente fino al completamento del software.
+            <br /><br />
+            3. <b>Metodologie agili (Agile)</b>: sono metodologie più complesse rispetto alle precedenti e si basano principalmente sul testing e refactoring.
+            <br /><br />
+            4. <b>Scrum</b>: una metodologia Agile specifica che suddivide il lavoro in "sprint" brevi e intensivi, con riunioni giornaliere e un forte focus sulla consegna di piccoli incrementi funzionali del software.
+            <br /><br />
+            5. <b>DevOps</b>: una combinazione di sviluppo (Development) e operazioni (Operations), che mira a integrare la scrittura del software con la sua distribuzione e manutenzione in produzione, tramite l'automazione e la collaborazione tra i team di sviluppo e quelli operativi.
+            <br /><br />
+        </p>
+    </div>
+    <div class="text-column">
+        <h3>Modello a cascata</h3>
+        <p>Il modello a cascata, noto anche come Waterfall model, è uno dei primi e più tradizionali metodi di sviluppo del software. Si tratta di un approccio sequenziale che suddivide il processo di sviluppo in fasi distinte, in cui ogni fase deve essere completata prima di procedere alla successiva. L'idea fondamentale è quella di una progressione lineare "a cascata", in cui i risultati di una fase servono da base per quella successiva.
+        <br /><br />
+            <a href="#timeline" style="text-decoration: none; color: blueviolet"><b>Vai allo schema -></b></a>
+        </p>
+    </div>
+    <div class="text-column">
+        <h3>Modello a spirale</h3>
+        <p>Il modello a spirale è un metodo di sviluppo software che unisce aspetti dei modelli tradizionali, come il modello a cascata, con l'approccio iterativo delle metodologie agili. Introdotto da Barry Boehm nel 1986, questo modello è particolarmente vantaggioso per progetti complessi e ad alto rischio, poiché consente di affrontare i potenziali problemi in modo graduale e iterativo.
+            <br /><br />
+            <a href="#modelloSpirale" style="text-decoration: none; color: blueviolet"><b>Vai allo schema -></b></a>
+        </p>
+    </div>
+    <div class="text-column">
+        <h3>Metodologie agili</h3>
+        <p>Le metodologie agili comprendono pratiche e principi utilizzati principalmente nello sviluppo software, con l'obiettivo di migliorare la qualità e la flessibilità dei progetti. Queste metodologie promuovono la collaborazione tra i team, la consegna incrementale e l'adattamento ai cambiamenti. Sono nate come risposta ai metodi di sviluppo tradizionali, come il modello a cascata, e puntano a ridurre i tempi di sviluppo, rispondendo in modo efficace alle esigenze in continua evoluzione dei clienti. I principi fondamentali su cui si basano queste metodologie sono il testin e il refactoring
+            <br /><br />
+            <a href="#codice" style="text-decoration: none; color: blueviolet"><b>Vai all'esempio -></b></a>
+        </p>
+    </div>
+    <div class="text-column">
+        <h3>Scrum</h3>
+        <p>Scrum è un framework Agile che si focalizza sulla gestione e l'implementazione di progetti complessi, specialmente nel campo dello sviluppo software. A differenza delle metodologie tradizionali, Scrum sottolinea l'importanza della collaborazione tra i membri del team, dell'adattabilità e del miglioramento continuo. Questo framework è pensato per rispondere rapidamente ai cambiamenti e per promuovere un ambiente di lavoro trasparente e interattivo, attraverso brevi cicli di lavoro noti come "sprint".
+            <br /><br />
+            <b>Principi Fondamentali</b>
+            <br /><br />
+            Scrum si basa su alcuni principi chiave che ne definiscono l'efficacia:
+            <br /><br />
+
+            <b>Iterazioni brevi</b>: Il lavoro è suddiviso in sprint, cicli di lavoro brevi che durano da 1 a 4 settimane, durante i quali il team sviluppa e rilascia incrementi del prodotto.
+            <br /><br />
+            <b>Ruoli definiti</b>: Il framework prevede tre ruoli principali: il Product Owner, che gestisce il backlog e definisce le priorità; il Scrum Master, che facilita il processo e rimuove impedimenti; e il Team di Sviluppo, composto da professionisti cross-funzionali che lavorano insieme per raggiungere gli obiettivi di ciascun sprint.
+            <br /><br />
+            <b>Eventi strutturati</b>: Scrum include eventi fissi che organizzano il lavoro e favoriscono la comunicazione:
+            <br /><br />
+            1. <b>Sprint Planning</b>: un incontro per pianificare il lavoro da completare durante lo sprint, definendo gli obiettivi e le attività necessarie.
+            <br /><br />
+            2. <b>Daily Scrum</b>: una riunione giornaliera di massimo 15 minuti in cui il team si aggiorna sul progresso e discute eventuali ostacoli.
+            <br /><br />
+            3. <b>Sprint Review</b>: una riunione di fine sprint per rivedere il lavoro completato e raccogliere feedback dagli stakeholder.
+            <br /><br />
+            4. <b>Sprint Retrospective</b>: un incontro per riflettere sullo sprint appena concluso e identificare opportunità di miglioramento.
+            <br /><br />
+            <b>Incremento di prodotto</b>: Ogni sprint culmina nella produzione di un incremento del prodotto, che deve essere potenzialmente rilasciabile e rispondere agli standard di qualità concordati.
+            <br /><br />
+            <b>Vantaggi di Scrum</b>
+            <br /><br />
+            Scrum offre numerosi vantaggi, tra cui la flessibilità di adattarsi ai cambiamenti, la promozione della collaborazione tra i membri del team e la visibilità sul progresso del progetto. Grazie alla sua struttura semplice e ai ruoli ben definiti, Scrum aiuta i team a mantenere la concentrazione sugli obiettivi e a migliorare continuamente il loro processo di lavoro.
+            </p>
+    </div>
+    <div class="text-column">
+        <h3>Linguaggio UML</h3>
+        <p>Il Linguaggio di Modellazione Unificato (UML) è un linguaggio standard utilizzato per specificare, visualizzare, costruire e documentare gli artefatti di un sistema software. Sviluppato negli anni '90, UML è diventato il linguaggio principale per la modellazione nell'ingegneria del software, grazie alla sua abilità di rappresentare graficamente la struttura e il comportamento di un sistema.
+            <br /><br />
+            <a href="#uml" style="text-decoration: none; color: blueviolet"><b>Vai all'esempio -></b></a>
+        </p>
+    </div>
+    <div class="text-column">
+        <h3>Software Pattern (Design Pattern)</h3>
+        <p>Un design pattern rappresenta una soluzione riutilizzabile a un problema comune che si verifica spesso nello sviluppo software. Non si tratta di un codice già pronto, ma di un modello che può essere adattato a contesti specifici. I design pattern contribuiscono a rendere il codice più comprensibile e facile da mantenere, migliorando la comunicazione tra i membri del team di sviluppo.
+            <br /><br />
+            <a href="#designPattern" style="text-decoration: none; color: blueviolet"><b>Vai all'esempio -></b></a>
+        </p>
+    </div>
+    <div class="text-column">
+        <h3>Requisiti Software</h3>
+        <p>I requisiti software sono le specifiche e le condizioni che un sistema software deve rispettare per essere considerato completo e funzionante. Questi requisiti costituiscono la base per il design, lo sviluppo e la validazione del software, assicurando che le aspettative degli utenti e gli obiettivi aziendali siano allineati.
+            <br /><br />
+            <a href="#requisiti" style="text-decoration: none; color: blueviolet"><b>Vai all'esempio -></b></a>
+        </p>
+    </div>
+    <div class="text-column">
+        <h3>Diagrammi UML dei casi d'uso</h3>
+        <p><b>Diagrammi dei Casi d'Uso</b> <br /><br /> I diagrammi dei casi d'uso sono elementi fondamentali della Unified Modeling Language (UML) e svolgono un ruolo cruciale nella rappresentazione delle funzionalità di un sistema dal punto di vista dell'utente finale. Questi diagrammi offrono una visione chiara di come gli attori interagiscono con il sistema per raggiungere obiettivi specifici, evidenziando le esigenze del cliente e le aspettative del sistema. <br /><br /> <b>Componenti Principali</b> <br /><br /> I diagrammi dei casi d'uso comprendono diversi componenti essenziali: <br /><br />
+
+            <b>Attori</b>: rappresentano gli utenti o altre entità esterne (come sistemi o dispositivi) che interagiscono con il sistema. Gli attori possono essere persone, come un utente finale o un amministratore, oppure sistemi esterni che comunicano con il sistema in analisi. <br /><br />
+            <b>Casi d'Uso</b>: sono le operazioni o le funzionalità che il sistema deve fornire agli attori per soddisfare le loro necessità. Ogni caso d'uso rappresenta un'interazione specifica tra l'attore e il sistema. <br /><br />
+            <b>Relazioni</b>: le relazioni tra attori e casi d'uso sono fondamentali per comprendere come il sistema risponde alle azioni degli utenti. Le principali relazioni includono:
+            <br /><br />
+            1. <b>Associative o generalizzazioni</b>: indicano un'interazione diretta tra un attore e un caso d'uso.
+            <br /><br />
+            2. <b>Include</b>: indicano che un caso d'uso include il comportamento di un altro caso d'uso.
+            <br /><br />
+            3. <b>Extend</b>: indicano che un caso d'uso può essere esteso con un comportamento aggiuntivo in determinate condizioni.</p>
+    </div>
+</section>
+
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<div align="center">
+
+    <h2>Schemi e esempi</h2>
+
+</div>
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+
+<section class="timeline" id="timeline">
+    <div class="timeline-item left">
+        <div class="timeline-content">
+            <h3>Analisi</h3>
+            <p>Analisi e identificazione dei requisiti da implementare nel software.</p>
+        </div>
+    </div>
+    <div class="timeline-item right">
+        <div class="timeline-content">
+            <h3>Progettazione</h3>
+            <p>Definizione dell'archiettura del software da implementare.</p>
+        </div>
+    </div>
+    <div class="timeline-item left">
+        <div class="timeline-content">
+            <h3>Implementazione o Sviluppo</h3>
+            <p>Implementazione del codice del software con uno o più linguaggi di programmazione (Java, C++, Python ecc. o in caso di software web HTML, CSS, JavaScript, PHP ecc.).</p>
+        </div>
+    </div>
+    <div class="timeline-item right">
+        <div class="timeline-content">
+            <h3>Verifica</h3>
+            <p>Integrazione dei componenti, esecuzione del codice sviluppato e verifica del software.</p>
+        </div>
+    </div>
+    <div class="timeline-item left">
+        <div class="timeline-content">
+            <h3>Manutenzione</h3>
+            <p>Correzione di eventuali Bug (errori) non identificati in fase di verifica o integrazione di funzionalità non previste in fase di analisi.</p>
+        </div>
+    </div>
+</section>
+
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+
+<section class="text-with-image" id="modelloSpirale">
+    <img src="assets/modello_spirale.png" alt="Modello a Spirale">
+</section>
+
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+
+<section id="codice">
+
+    <div class="container">
+        <div class="code-container">
+            <h2>Codice Java senza refactoring</h2>
+            <pre>
+<code>
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+    <mark>static double formulaErone (Scanner sc, ArrayList&lt;Double&gt; lati) {</mark>
+
+        double area, semiP;
+
+        //Richiesta del perimetro come input
+
+        System.out.println("Inserisci il perimetro in m: ");
+
+        double p = sc.nextDouble();
+
+        //Richiesta dei lati come input
+
+        System.out.println("Inserisci i lati uno dopo l'altro in m: ");
+
+        while (lati.size() < 3) {
+
+            double val = sc.nextDouble();
+            lati.add(val);
+        }
+
+        //Calcolo del semiperimetro
+
+        semiP = p/2;
+
+        //Applicazione della formula di Erone
+
+        area = Math.sqrt(semiP*(semiP-lati.get(0))*(semiP-lati.get(1))*(semiP-lati.get(2)));
+
+        return area;
+
+    }
+
+    <mark>public static void main(String[] args) {</mark>
+
+        //Istanziamento dello Scanner
+
+        Scanner sc = new Scanner(System.in);
+
+        //Istanziamento dell'ArrayList
+
+        ArrayList&lt;Double&gt; lati = new ArrayList&lt;Double&gt;();
+
+        //Richiamo della funzione
+
+        double area = formulaErone(sc, lati);
+
+        System.out.println("In base ai dati forniti, l'area calcolata è " + area + "m^2");
+
+        sc.close();
+
+    }
+}
+</code>
+            </pre>
+        </div>
+        <div class="code-container">
+            <h2>Codice Java con refactoring</h2>
+            <pre>
+<code>
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+    //Richiesta del perimetro
+
+    <mark>static double inputPerimetro(Scanner sc) {</mark>
+
+        System.out.println("Inserisci il perimetro in m: ");
+        return sc.nextDouble();
+
+    }
+
+    //Calcolo del semiperimetro
+
+    <mark>static double calcoloSemiP(double perimetro) {</mark>
+
+        return perimetro / 2;
+
+    }
+
+    //Richiesta dei lati in input
+
+    <mark>static void inputLati(Scanner sc, ArrayList&lt;Double&gt; lati) {</mark>
+
+        System.out.println("Inserisci i lati uno dopo l'altro in m: ");
+        while (lati.size() < 3) {
+            double val = sc.nextDouble();
+            lati.add(val);
+        }
+
+    }
+
+    //Applicazione della formula di Erone
+
+    <mark>static double formulaErone(double semiP, ArrayList&lt;Double&gt; lati) {</mark>
+
+        return Math.sqrt(semiP * (semiP - lati.get(0)) * (semiP - lati.get(1)) * (semiP - lati.get(2)));
+
+    }
+
+    <mark>public static void main(String[] args) {</mark>
+
+        Scanner sc = new Scanner(System.in);
+        ArrayList&lt;Double&gt; lati = new ArrayList&lt;&gt;();
+
+        double perimetro = inputPerimetro(sc);
+        double semiP = calcoloSemiP(perimetro);
+        inputLati(sc, lati);
+
+        double area = formulaErone(semiP, lati);
+
+        System.out.println("In base ai dati forniti, l'area calcolata è " + area + " m^2");
+
+        sc.close();
+
+    }
+}
+</code>
+            </pre>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="text-with-image" id="designPattern">
+    <img src="assets/design_pattern.png" alt="Design Pattern">
+</section>
+
+
+
+<section class="text-with-image" id="uml">
+    <img src="assets/uml.png" alt="UML">
+</section>
+
+
+
+<section class="text-with-image" id="requisiti">
+    <img src="assets/requisiti.png" alt="Requisiti">
+</section>
+
+
+
+<script>
+    // Animazione al caricamento
+    function checkScroll() {
+        const items = document.querySelectorAll('.timeline-item');
+        items.forEach(item => {
+            const itemTop = item.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            if (itemTop < windowHeight * 0.8) {
+                item.classList.add('animate');
+            }
+        });
+    }
+
+    // Controlla all'avvio e durante lo scroll
+    window.addEventListener('load', checkScroll);
+    window.addEventListener('scroll', checkScroll);
+</script>
+
+<script>
+    function createParticles() {
+        const particlesContainer = document.getElementById('particles');
+        const numberOfParticles = 50;
+
+        for (let i = 0; i < numberOfParticles; i++) {
+            const particle = document.createElement('div');
+            particle.classList.add('particle');
+
+            const size = Math.random() * 5 + 2;
+            particle.style.width = `${size}px`;
+            particle.style.height = `${size}px`;
+
+            particle.style.left = `${Math.random() * 100}%`;
+            particle.style.top = `${Math.random() * 100}%`;
+
+            const duration = Math.random() * 10 + 5;
+            const delay = Math.random() * 5;
+            particle.style.animation = `float ${duration}s ${delay}s infinite`;
+
+            particlesContainer.appendChild(particle);
+        }
+    }
+
+    window.addEventListener('load', createParticles);
+</script>
+
+
+<footer>
+
+    <h3>Ingegneria del software</h3>
+    <h4>Biestro, Bignamini, Cassani, Dinescu, Dourka, Jenduobi</h4>
+
+</footer>
+
+</body>
+</html>
